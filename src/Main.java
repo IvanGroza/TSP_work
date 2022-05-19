@@ -73,16 +73,16 @@ public class Main {
 
 
         printTravelPrices(travelPrices,numberOfCities);
-        System.out.println("0-Кривой Рог");
-        System.out.println("1-Луганск");
-        System.out.println("2-Киев");
-        System.out.println("3-Чернигов");
-        System.out.println("4-Одесса");
-        System.out.println("5-Макеевка");
-        System.out.println("6-Харьков");
-        System.out.println("7-Херсон");
-        System.out.println("8-Белая Церковь");
-        System.out.println("9-Никополь");
+        System.out.println("0-Гамбург");
+        System.out.println("1-Висбаден");
+        System.out.println("2-Дрезден");
+        System.out.println("3-Любек");
+        System.out.println("4-Падерборн");
+        System.out.println("5-Гельзенкирхен");
+        System.out.println("6-Оффенбах");
+        System.out.println("7-Хамм");
+        System.out.println("8-Ройтлинген");
+        System.out.println("9-Пфорцгейм");
         ÜberSalesmensch geneticAlgorithm = new ÜberSalesmensch(numberOfCities, SelectionType.ROULETTE, travelPrices, 0, 0);
         SalesmanGenome result = geneticAlgorithm.optimize();
         System.out.println(result);
